@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.container-fluid{color: white}
+
+#header {height: 40px; background-color: rgba(0, 0, 0, 0.4)}
+#header .icon {width: 30px; height: 30px}
+#header a {color: white; font-size: small}
+
+
+#main {margin-top: 60px}
+
+#main #title {margin-bottom: 40px; text-align: center}
+
+#main #contents #read {text-align: center}
+#main #contents #write {text-align: center}
+#main #contents #talk {text-align: center}
+
+#main #contents #read .icon {height:100px; height: 100px; margin: 10px}
+#main #contents #write .icon {height:100px; height: 100px; margin: 10px}
+#main #contents #talk .icon {height:100px; height: 100px; margin: 10px}
+
+#main #contents #read .message {font-size: small}
+#main #contents #write .message {font-size: small}
+#main #contents #talk .message {font-size: small}
+
+#submit {text-align: center; margin: 50px}
+#main .btn {
+    padding: 5px 40px;
+    font-size: small;
+    font-weight: bold;
+    background-color: #00CC99
+}
